@@ -1,7 +1,7 @@
 package com.midterm.english_app.domain.model
 
 import androidx.annotation.DrawableRes
-import com.javalon.englishwhiz.R
+// import com.javalon.englishwhiz.R
 
 data class UtilItem(
     val itemText: String,
