@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/midterm/english_app/data/local/converters/LabelConverter.kt" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/midterm/english_app/data/local/converters/MeaningConverter.kt" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/midterm/english_app/data/local/converters/SynonymConverter.kt" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
