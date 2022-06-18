@@ -17,5 +17,17 @@ class BookmarkViewModel @Inject constructor(private val wordRepo: WordRepository
     var bookmarks = MutableStateFlow(listOf<WordModel>())
         private set
 
- 
+    fun deleteBookmark(wordModel: WordModel) {
+        viewModelScope.launch(Dispatchers.IO) {
+            wordRepo.deleteBookmark(wordModel.toBookmarkEntity())
+        }
+    }
+
+    init {
+        viewModelScope.launch(Dispatchers.IO) {
+            wordRepo.getAllBookmark().collect { result ->
+                bookmarks.value = result.map { it.toWordModel() }
+            }
+        }
+    }
 }

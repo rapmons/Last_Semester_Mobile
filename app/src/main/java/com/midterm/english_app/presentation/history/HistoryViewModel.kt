@@ -15,4 +15,18 @@ class HistoryViewModel @Inject constructor(private val wordRepo: WordRepository)
     var history = MutableStateFlow(listOf<WordModel>())
         private set
 
+    fun deleteHistory(wordModel: WordModel) {
+        viewModelScope.launch(Dispatchers.IO) {
+            wordRepo.deleteHistory(wordModel.toHistoryEntity())
+        }
+    }
+
+    init {
+        viewModelScope.launch(Dispatchers.IO) {
+            wordRepo.getAllHistory().collect { result ->
+                history.value = result.map { it.toWordModel() }.reversed()
+            }
+
+        }
+    }
 }

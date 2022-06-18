@@ -41,7 +41,22 @@ fun HistoryScreen(viewModel: HistoryViewModel, onItemClick: (Int) -> Unit) {
                     .align(Alignment.Start)
             )
 
+            BookmarkList(list = history, onItemClick = onItemClick) {
+                viewModel.deleteHistory(it)
+            }
         }
 
+        if (history.isEmpty()) {
+            Text(
+                text = "History is empty. Your search history will appear here",
+                style = MaterialTheme.typography.subtitle2,
+                fontWeight = FontWeight.ExtraLight,
+                textAlign = TextAlign.Center,
+                color = MaterialTheme.colors.onBackground,
+                modifier = Modifier
+                    .padding(16.dp)
+                    .align(Alignment.Center)
+            )
+        }
     }
 }

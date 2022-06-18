@@ -41,9 +41,22 @@ fun BookmarkScreen(viewModel: BookmarkViewModel, onItemClick: (Int) -> Unit) {
                         .align(Alignment.Start)
                 )
 
-               
+                BookmarkList(list = bookmarks, onItemClick = onItemClick) {
+                    viewModel.deleteBookmark(it)
+                }
             }
-           
+            if (bookmarks.isEmpty()) {
+                Text(
+                    text = "Bookmark is empty. Click on the 'save' icon in Home to add to bookmark",
+                    style = MaterialTheme.typography.subtitle2,
+                    fontWeight = FontWeight.ExtraLight,
+                    textAlign = TextAlign.Center,
+                    color = MaterialTheme.colors.onBackground,
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .align(Alignment.Center)
+                )
+            }
         }
     }
 
@@ -52,5 +65,13 @@ fun BookmarkScreen(viewModel: BookmarkViewModel, onItemClick: (Int) -> Unit) {
 @ExperimentalUnitApi
 @Composable
 fun BookmarkList(
-    list: List<WordModel>
-) 
+    list: List<WordModel>,
+    onItemClick: (Int) -> Unit,
+    onDeleteClick: (WordModel) -> Unit
+) {
+    LazyColumn(modifier = Modifier.padding(horizontal = 16.dp)) {
+        itemsIndexed(list) { index, item ->
+            BookmarkItem(index, wordModel = item, onItemClick, onDeleteClick)
+        }
+    }
+}
