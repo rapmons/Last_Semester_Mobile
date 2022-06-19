@@ -2,14 +2,15 @@ package com.midterm.english_app.di
 
 import android.content.Context
 import androidx.room.Room
-import com.javalon.englishwhiz.data.DictionaryDatabase
-import com.javalon.englishwhiz.data.WordModelDatabase
-import com.javalon.englishwhiz.data.local.DictionaryDao
-import com.javalon.englishwhiz.data.local.WordModelDao
-import com.javalon.englishwhiz.data.repository.DictionaryRepository
-import com.javalon.englishwhiz.data.repository.WordRepository
-import com.javalon.englishwhiz.domain.repository.DictionaryBaseRepository
-import com.javalon.englishwhiz.domain.repository.WordBaseRepository
+import com.midterm.english_app.data.repository.DictionaryRepository
+import com.midterm.english_app.data.repository.WordRepository
+import com.midterm.english_app.data.DictionaryDatabase
+import com.midterm.english_app.data.WordModelDatabase
+import com.midterm.english_app.data.local.DictionaryDao
+import com.midterm.english_app.data.local.WordModelDao
+import com.midterm.english_app.domain.repository.DictionaryBaseRepository
+import com.midterm.english_app.domain.repository.WordBaseRepository
+
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
