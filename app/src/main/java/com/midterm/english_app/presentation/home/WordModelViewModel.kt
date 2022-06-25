@@ -1,10 +1,10 @@
-package com.javalon.englishwhiz.presentation.home
+package com.midterm.english_app.presentation.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.javalon.englishwhiz.domain.model.WordModel
-import com.javalon.englishwhiz.domain.repository.DictionaryBaseRepository
-import com.javalon.englishwhiz.domain.repository.WordBaseRepository
+import com.midterm.english_app.domain.model.WordModel
+import com.midterm.english_app.domain.repository.DictionaryBaseRepository
+import com.midterm.english_app.domain.repository.WordBaseRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Job

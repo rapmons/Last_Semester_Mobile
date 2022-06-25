@@ -1,12 +1,11 @@
-package com.javalon.englishwhiz.data.local.converters
+package com.midterm.english_app.data.local.converters
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.javalon.englishwhiz.data.local.entity.Meaning
+import com.midterm.english_app.data.local.entity.Meaning
 
 class MeaningConverter {
-
     @TypeConverter
     fun fromJson(meaning: List<Meaning>): String {
         return Gson().toJson(meaning)

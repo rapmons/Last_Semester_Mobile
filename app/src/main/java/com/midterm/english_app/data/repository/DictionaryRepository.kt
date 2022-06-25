@@ -1,12 +1,11 @@
-package com.javalon.englishwhiz.data.repository
+package com.midterm.english_app.data.repository
 
 import androidx.sqlite.db.SimpleSQLiteQuery
 
-import com.javalon.englishwhiz.data.local.entity.DictionaryEntity
-import com.javalon.englishwhiz.domain.repository.DictionaryBaseRepository
-import com.javalon.englishwhiz.util.Resource
-import com.midterm.english_app.data.local.DictionaryDao
+import com.midterm.english_app.data.local.entity.DictionaryEntity
 import com.midterm.english_app.domain.repository.DictionaryBaseRepository
+
+import com.midterm.english_app.data.local.DictionaryDao
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.ui.theme
+package com.midterm.english_app.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
@@ -6,7 +6,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.javalon.englishwhiz.R
+import com.midterm.english_app.R
 
 private val Sailec = FontFamily(
     Font(R.font.sailec_regular),

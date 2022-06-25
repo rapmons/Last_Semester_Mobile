@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.home
+package com.midterm.english_app.presentation.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -32,12 +32,12 @@ import androidx.compose.ui.unit.ExperimentalUnitApi
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
-import com.javalon.englishwhiz.domain.model.WordModel
-import com.javalon.englishwhiz.presentation.bookmark.BookmarkViewModel
-import com.javalon.englishwhiz.presentation.history.HistoryViewModel
-import com.javalon.englishwhiz.presentation.home.components.AutoCompleteTextField
-import com.javalon.englishwhiz.presentation.home.components.IconThemeSwitch
-import com.javalon.englishwhiz.presentation.home.components.UtilButtons
+import com.midterm.english_app.domain.model.WordModel
+import com.midterm.english_app.presentation.bookmark.BookmarkViewModel
+import com.midterm.english_app.presentation.history.HistoryViewModel
+import com.midterm.english_app.presentation.home.components.AutoCompleteTextField
+import com.midterm.english_app.presentation.home.components.IconThemeSwitch
+import com.midterm.english_app.presentation.home.components.UtilButtons
 import kotlinx.coroutines.InternalCoroutinesApi
 
 var dictionaryStringBuilder = StringBuilder()

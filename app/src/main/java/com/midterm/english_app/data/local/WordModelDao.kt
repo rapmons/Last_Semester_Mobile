@@ -5,8 +5,8 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.javalon.englishwhiz.data.local.entity.BookmarkEntity
-import com.javalon.englishwhiz.data.local.entity.HistoryEntity
+import com.midterm.english_app.data.local.entity.BookmarkEntity
+import com.midterm.english_app.data.local.entity.HistoryEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

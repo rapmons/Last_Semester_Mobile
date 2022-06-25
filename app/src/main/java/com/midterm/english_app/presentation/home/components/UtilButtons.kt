@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.home.components
+package com.midterm.english_app.presentation.home.components
 
 import android.content.Intent
 import androidx.compose.material.ExperimentalMaterialApi
@@ -13,9 +13,11 @@ import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.buildAnnotatedString
-import com.javalon.englishwhiz.presentation.home.TTSListener
-import com.javalon.englishwhiz.presentation.home.WordModelViewModel
-import com.javalon.englishwhiz.presentation.home.dictionaryStringBuilder
+import com.midterm.english_app.presentation.home.TTSListener
+import com.midterm.english_app.presentation.home.WordModelViewModel
+import com.midterm.english_app.presentation.home.components.CopyButton
+import com.midterm.english_app.presentation.home.components.SaveButton
+import com.midterm.english_app.presentation.home.dictionaryStringBuilder
 import kotlinx.coroutines.launch
 
 @ExperimentalMaterialApi

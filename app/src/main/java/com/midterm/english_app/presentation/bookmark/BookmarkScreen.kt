@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.bookmark
+package com.midterm.english_app.presentation.bookmark
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,9 +18,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.ExperimentalUnitApi
 import androidx.compose.ui.unit.dp
-import com.javalon.englishwhiz.domain.model.WordModel
-import com.javalon.englishwhiz.presentation.bookmark.components.BookmarkItem
-import com.javalon.englishwhiz.presentation.ui.theme.blueText
+import com.midterm.english_app.domain.model.WordModel
+import com.midterm.english_app.presentation.bookmark.components.BookmarkItem
+import com.midterm.english_app.presentation.ui.theme.blueText
 
 @ExperimentalUnitApi
 @Composable
@@ -52,5 +52,13 @@ fun BookmarkScreen(viewModel: BookmarkViewModel, onItemClick: (Int) -> Unit) {
 @ExperimentalUnitApi
 @Composable
 fun BookmarkList(
-    list: List<WordModel>
-) 
+    list: List<WordModel>,
+    onItemClick: (Int) -> Unit,
+    onDeleteClick: (WordModel) -> Unit
+) {
+    LazyColumn(modifier = Modifier.padding(horizontal = 16.dp)) {
+        itemsIndexed(list) { index, item ->
+            BookmarkItem(index, wordModel = item, onItemClick, onDeleteClick)
+        }
+    }
+}

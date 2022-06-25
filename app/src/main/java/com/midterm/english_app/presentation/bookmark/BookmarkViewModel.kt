@@ -1,10 +1,10 @@
-package com.javalon.englishwhiz.presentation.bookmark
+package com.midterm.english_app.presentation.bookmark
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.javalon.englishwhiz.data.repository.WordRepository
-import com.javalon.englishwhiz.domain.model.WordModel
-import com.javalon.englishwhiz.util.Resource
+import com.midterm.english_app.data.repository.WordRepository
+import com.midterm.english_app.domain.model.WordModel
+import com.midterm.english_app.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

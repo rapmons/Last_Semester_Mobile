@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.data.local.entity
+package com.midterm.english_app.data.local.entity
 
 import com.google.gson.annotations.SerializedName
 

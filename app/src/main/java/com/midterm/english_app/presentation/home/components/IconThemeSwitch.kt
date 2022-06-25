@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.home.components
+package com.midterm.english_app.presentation.home.components
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.size
@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.javalon.englishwhiz.R
+import com.midterm.english_app.R
 
 @Composable
 fun IconThemeSwitch(modifier: Modifier = Modifier, onToggle: () -> Unit) {

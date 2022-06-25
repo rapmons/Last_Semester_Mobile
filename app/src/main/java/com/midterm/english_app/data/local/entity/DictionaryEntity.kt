@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.data.local.entity
+package com.midterm.english_app.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.javalon.englishwhiz.data.local.converters.MeaningConverter
-import com.javalon.englishwhiz.domain.model.WordModel
+import com.midterm.english_app.data.local.converters.MeaningConverter
+import com.midterm.english_app.domain.model.WordModel
 
 @Entity(tableName = "a_table")
 data class DictionaryEntity(

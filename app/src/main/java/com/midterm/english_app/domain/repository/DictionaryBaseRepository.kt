@@ -1,6 +1,6 @@
 package com.midterm.english_app.domain.repository
 
-import com.javalon.englishwhiz.data.local.entity.DictionaryEntity
+import com.midterm.english_app.data.local.entity.DictionaryEntity
 import kotlinx.coroutines.flow.Flow
 
 interface DictionaryBaseRepository {

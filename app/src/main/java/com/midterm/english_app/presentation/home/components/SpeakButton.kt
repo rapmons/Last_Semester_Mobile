@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.home.components
+package com.midterm.english_app.presentation.home.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -16,7 +16,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.javalon.englishwhiz.R
+import com.midterm.english_app.R
+
 
 @ExperimentalMaterialApi
 @Composable

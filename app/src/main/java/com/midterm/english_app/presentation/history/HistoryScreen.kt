@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.history
+package com.midterm.english_app.presentation.history
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.ExperimentalUnitApi
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.javalon.englishwhiz.presentation.bookmark.BookmarkList
-import com.javalon.englishwhiz.presentation.ui.theme.blueText
+import com.midterm.english_app.presentation.bookmark.BookmarkList
+import com.midterm.english_app.presentation.ui.theme.blueText
 
 @ExperimentalUnitApi
 @Composable

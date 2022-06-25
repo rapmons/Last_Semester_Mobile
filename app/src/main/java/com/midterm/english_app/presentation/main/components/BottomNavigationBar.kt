@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.main.components
+package com.midterm.english_app.presentation.main.components
 
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.background
@@ -19,8 +19,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.javalon.englishwhiz.R
-import com.javalon.englishwhiz.presentation.ui.theme.EnglishWhizTheme
+import com.midterm.english_app.presentation.ui.theme.EnglishWhizTheme
 
 @Composable
 @ExperimentalAnimationApi

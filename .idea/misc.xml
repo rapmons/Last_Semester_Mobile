@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/LearnEnglishApp/Last_Semester_Mobile/app/src/main/res/drawable/delete.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/midterm/english_app/data/local/converters/LabelConverter.kt" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/midterm/english_app/data/local/converters/MeaningConverter.kt" />

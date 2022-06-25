@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.main.components
+package com.midterm.english_app.presentation.main.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -23,8 +23,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.javalon.englishwhiz.R
-import com.javalon.englishwhiz.presentation.ui.theme.EnglishWhizTheme
+import com.midterm.english_app.R
+
+import com.midterm.english_app.presentation.ui.theme.EnglishWhizTheme
 
 @ExperimentalAnimationApi
 @Composable

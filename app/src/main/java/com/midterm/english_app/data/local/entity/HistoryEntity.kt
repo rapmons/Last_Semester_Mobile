@@ -1,8 +1,8 @@
-package com.javalon.englishwhiz.data.local.entity
+package com.midterm.english_app.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.javalon.englishwhiz.domain.model.WordModel
+import com.midterm.english_app.domain.model.WordModel
 
 @Entity(tableName = "historyTable")
 data class HistoryEntity(

@@ -3,23 +3,31 @@
     package="com.midterm.english_app">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:name=".di.App"
+        android:allowBackup="false"
+        android:icon="@mipmap/englishwhiz_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/englishwhiz_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.English_app">
+        android:theme="@style/Theme.EnglishWhiz">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.English_app">
+            android:theme="@style/Theme.EnglishWhiz.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="io.sentry.dsn"
+            android:value="https://ab0de45c402047fcbb3c74fe8cf84ad4@o1241201.ingest.sentry.io/6394834" />
+
+        <meta-data
+            android:name="io.sentry.traces.sample-rate"
+            android:value="1.0" />
     </application>
 
 </manifest>

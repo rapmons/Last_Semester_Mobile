@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.RawQuery
 import androidx.sqlite.db.SupportSQLiteQuery
-import com.javalon.englishwhiz.data.local.entity.DictionaryEntity
+import com.midterm.english_app.data.local.entity.DictionaryEntity
 
 @Dao
 interface DictionaryDao {

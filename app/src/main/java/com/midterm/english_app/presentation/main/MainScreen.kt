@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.main
+package com.midterm.english_app.presentation.main
 
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.ScaffoldState
@@ -11,13 +11,13 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navArgument
-import com.javalon.englishwhiz.presentation.bookmark.BookmarkScreen
-import com.javalon.englishwhiz.presentation.bookmark.BookmarkViewModel
-import com.javalon.englishwhiz.presentation.history.HistoryScreen
-import com.javalon.englishwhiz.presentation.history.HistoryViewModel
-import com.javalon.englishwhiz.presentation.home.HomeScreen
-import com.javalon.englishwhiz.presentation.home.WordModelViewModel
-import com.javalon.englishwhiz.presentation.navigation.NavScreen
+import com.midterm.english_app.presentation.bookmark.BookmarkScreen
+import com.midterm.english_app.presentation.bookmark.BookmarkViewModel
+import com.midterm.english_app.presentation.history.HistoryScreen
+import com.midterm.english_app.presentation.history.HistoryViewModel
+import com.midterm.english_app.presentation.home.HomeScreen
+import com.midterm.english_app.presentation.home.WordModelViewModel
+import com.midterm.english_app.presentation.navigation.NavScreen
 import kotlinx.coroutines.InternalCoroutinesApi
 
 @ExperimentalMaterialApi

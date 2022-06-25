@@ -1,4 +1,4 @@
-package com.javalon.englishwhiz.presentation.home
+package com.midterm.english_app.presentation.home
 
 import android.content.Context
 import android.speech.tts.TextToSpeech

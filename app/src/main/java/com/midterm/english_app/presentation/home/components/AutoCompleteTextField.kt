@@ -1,5 +1,6 @@
-package com.javalon.englishwhiz.presentation.home.components
+package com.midterm.english_app.presentation.home.components
 
+import android.text.method.TextKeyListener.clear
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -29,7 +30,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
-import com.javalon.englishwhiz.R
+import com.midterm.english_app.R
+
 
 @ExperimentalMaterialApi
 @ExperimentalComposeUiApi

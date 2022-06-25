@@ -1,9 +1,8 @@
 package com.midterm.english_app.domain.repository
 
-import com.javalon.englishwhiz.data.local.entity.BookmarkEntity
-import com.javalon.englishwhiz.data.local.entity.DictionaryEntity
-import com.javalon.englishwhiz.data.local.entity.HistoryEntity
-import com.javalon.englishwhiz.util.Resource
+import com.midterm.english_app.data.local.entity.BookmarkEntity
+import com.midterm.english_app.data.local.entity.DictionaryEntity
+import com.midterm.english_app.data.local.entity.HistoryEntity
 import kotlinx.coroutines.flow.Flow
 
 interface WordBaseRepository {

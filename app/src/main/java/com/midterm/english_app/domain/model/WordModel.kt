@@ -1,11 +1,8 @@
 package com.midterm.english_app.domain.model
 
-import com.javalon.englishwhiz.data.local.entity.BookmarkEntity
-import com.javalon.englishwhiz.data.local.entity.HistoryEntity
-import com.javalon.englishwhiz.data.local.entity.Meaning
-import com.midterm.english_app.data.local.entity.Meaning
 import com.midterm.english_app.data.local.entity.BookmarkEntity
 import com.midterm.english_app.data.local.entity.HistoryEntity
+import com.midterm.english_app.data.local.entity.Meaning
 
 data class WordModel(
     val meanings: List<Meaning>?,
